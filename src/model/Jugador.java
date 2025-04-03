@@ -1,5 +1,6 @@
 package model;
 
-public class Jugador {
+public abstract class Jugador {
+
 
 }

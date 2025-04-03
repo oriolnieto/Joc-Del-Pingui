@@ -1,5 +1,5 @@
 package model;
 
-public class Foca {
+public class Foca extends Jugador {
 
 }
