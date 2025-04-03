@@ -10,6 +10,12 @@ public class Taulell {
 	private Jugador jugadorActual;
 	
 	
+	public Taulell(ArrayList<Casella> casillas, ArrayList<Jugador> jugadors, int torns, Jugador jugadorActual) {
+		this.casillas = casillas;
+		this.jugadors = jugadors;
+		this.torns = torns;
+		this.jugadorActual = jugadorActual;
+	}
 	public ArrayList<Casella> getCasillas() {
 		return casillas;
 	}
@@ -40,5 +46,8 @@ public class Taulell {
 	}
 	
 	
+	public void actualitzarJugador (Jugador j) {
+		
+	}
 	
 }
