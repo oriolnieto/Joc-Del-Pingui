@@ -1,5 +1,9 @@
 package controlador;
 
+import model.Foca;
+import model.Jugador;
+import model.Pingüi;
+
 public class gestorJugador {
 	public void UtilitzarItem(String nombreitem) {
 		
