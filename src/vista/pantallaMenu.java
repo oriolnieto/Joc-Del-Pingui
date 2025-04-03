@@ -1,5 +1,7 @@
 package vista;
 
+import model.Taulell;
+
 public class pantallaMenu {
 	public void menu () {
 		
@@ -9,7 +11,7 @@ public class pantallaMenu {
 		
 	}
 	
-	public void botoCarregarPartida () {
+	public void botoCarregarPartida (Taulell t) {
 		
 	}
 	
