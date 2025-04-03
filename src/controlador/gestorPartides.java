@@ -1,5 +1,7 @@
 package controlador;
 
+import model.Taulell;
+
 public class gestorPartides {
 	private String linkBBDD;
 	private String username;
@@ -29,6 +31,11 @@ public class gestorPartides {
 		this.password = password;
 	}
 	
-	
+	public Taulell carregarPartida() {
+		return null;
+	}
+	public void guardarPartida(Taulell t) {
+		
+	}
 
 }
