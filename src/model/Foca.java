@@ -21,10 +21,10 @@ public class Foca extends Jugador {
 		
 	}
 	public void pegarJugador(Pingüi p) {
-		
+		p.setPosicio(p.getPosicio() - 1);
 	}
 	public void esSoborn() {
-		
+		soborn = true;
 	}
 	
 }
