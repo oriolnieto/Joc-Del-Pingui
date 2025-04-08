@@ -1,7 +1,11 @@
 package vista;
 
+import model.Taulell;
+
 public class pantallaPartida {
 
+	private Taulell taulell;
+	
 	public void botoTirarDau() {
 		
 	}
@@ -18,11 +22,11 @@ public class pantallaPartida {
 		
 	}
 	
-	public void carregarPartida () {
+	public void carregarPartida (Taulell t) {
 		
 	}
 	
-	public void guardarPartida () {
+	public void guardarPartida (Taulell t) {
 		
 	}
 }
