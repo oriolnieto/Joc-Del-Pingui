@@ -4,8 +4,8 @@ public class Foca extends Jugador {
 	
 	private boolean soborn;
 
-	public Foca(int posicio, String nom, String color, boolean soborn, Inventari inv) {
-		super(posicio, nom, color, inv);
+	public Foca(int posicio, String nom, String color, boolean soborn) {
+		super(posicio, nom, color);
 		this.soborn = soborn;
 	}
 

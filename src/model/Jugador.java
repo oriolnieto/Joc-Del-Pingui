@@ -4,23 +4,16 @@ import java.util.Random;
 
 public abstract class Jugador {
 
-	private Inventari inv;
 	private int posicio;
 	private String nom;
 	private String color;
 	
-	public Jugador(int posicio, String nom, String color, Inventari inv) {
+	public Jugador(int posicio, String nom, String color) {
 		this.posicio = posicio;
 		this.nom = nom;
 		this.color = color;
-		this.inv = inv;
 	}
-	public Inventari getInv() {
-		return inv;
-	}
-	public void setInv(Inventari inv) {
-		this.inv = inv;
-	}
+
 	public int getPosicio() {
 		return posicio;
 	}
