@@ -1,6 +1,7 @@
 package model;
 
 import java.util.ArrayList;
+import java.util.Iterator;
 
 public class Os extends Casella {
 
@@ -10,7 +11,9 @@ public class Os extends Casella {
 	}
 
 	@Override
-	public void realitzarAccio() {
-		
+	public void realitzarAccio( ) {
+		for(Jugador j : this.jugadorsActuals) {
+			j.setPosicio(0);
+		}
 	}
 }
