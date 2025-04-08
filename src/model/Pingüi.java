@@ -5,8 +5,7 @@ public class Pingüi extends Jugador {
 	private Inventari inv;
 
 	public Pingüi(int posicio, String nom, String color, Inventari inv) {
-		super(posicio, nom, color);
-		this.inv = inv;
+		super(posicio, nom, color, inv);
 	}
 	
 	public Inventari getInv() {
