@@ -17,8 +17,10 @@ public class Foca extends Jugador {
 		this.soborn = soborn;
 	}
 	
-	public void aplastarJugador(Pingüi p) {
-		
+	public void aplastarJugador(Pingüi p) {		
+		for (int i = 0; i < p.getInv().getLlista().size()/2; i++) {
+			p.treureItem(p.getInv().getLlista().get(i));
+		}
 	}
 	public void pegarJugador(Pingüi p) {
 		p.setPosicio(p.getPosicio() - 1);

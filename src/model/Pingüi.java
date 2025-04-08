@@ -17,18 +17,18 @@ public class Pingüi extends Jugador {
 	public void gestioBatalla() {
 		int totalBolas  = 0;
 		
-		while(inv.llista.contains(null)) {
+		while(inv.getLlista().contains(null)) {
 			totalBolas += + 1;
 		}
 		
 	}
-	public void utilitzarObjecte() {
-		treureItem();
+	public void utilitzarObjecte(Item i) {
+		treureItem(i);
 	}
 	public void afegirItem() {
-		inv.llista.add(null);
+		inv.getLlista().add(null);
 	}
-	public void treureItem() {
-		inv.llista.remove(null);
+	public void treureItem(Item i) {
+		inv.getLlista().remove(i);
 	}
 }
