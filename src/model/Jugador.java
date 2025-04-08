@@ -1,5 +1,7 @@
 package model;
 
+import java.util.Random;
+
 public abstract class Jugador {
 
 	private int posicio;
@@ -31,11 +33,17 @@ public abstract class Jugador {
 	}
 	
 	public void tirarDau(int maximDau) {
+		maximDau = 6+1;
+		Random rand = new Random();
 		
+		int numDau = rand.nextInt(maximDau);
+		
+		System.out.println("Ha sortit: " + numDau);
+
 	}
 	
-	public void mourePosicio(int p) {
-		
+	public void mourePosicio(int numDau) {
+		posicio = posicio + numDau;
 	}
 	
 }
