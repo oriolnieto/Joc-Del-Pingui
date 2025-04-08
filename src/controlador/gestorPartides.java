@@ -2,14 +2,17 @@ package controlador;
 
 import java.sql.Connection;
 import java.sql.DriverManager;
+import java.sql.ResultSet;
 import java.sql.SQLException;
+import java.sql.Statement;
+import java.sql.Struct;
 
 import model.Taulell;
 
 public class gestorPartides {
-	private static String linkBBDD;
-	private static String username;
-	private static String password;
+	private static String linkBBDD = "jdbc:oracle:thin:@192.168.3.26:1521/XEPDB2";
+	private static String username = "DM2425_PIN_GRUP03";
+	private static String password = "AAANT03";
 	
 	public gestorPartides(String linkBBDD, String username, String password) {
 		gestorPartides.linkBBDD=linkBBDD;
