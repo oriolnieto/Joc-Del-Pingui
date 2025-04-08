@@ -11,6 +11,5 @@ public class TerraTrencat extends Casella {
 
 	@Override
 	public void realitzarAccio() {
-		
 	}
 }
