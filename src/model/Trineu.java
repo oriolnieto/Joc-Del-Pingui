@@ -11,6 +11,8 @@ public class Trineu extends Casella{
 
 	@Override
 	public void realitzarAccio() {
-		
+		for(Jugador j : this.jugadorsActuals) {
+			
+		}
 	}
 }
