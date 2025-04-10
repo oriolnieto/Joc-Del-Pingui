@@ -14,7 +14,9 @@ public class TerraTrencat extends Casella {
 		for(Jugador j : this.jugadorsActuals) {
 			if(j instanceof Pingüi) {
 				Pingüi p = (Pingüi)j;
+				p.getInv();
 			}
 		}
+		
 	}
 }
