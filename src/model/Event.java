@@ -13,6 +13,12 @@ public class Event extends Casella{
 
 	@Override
 	public void realitzarAccio() {
+		for (Jugador j : this.jugadorsActuals) {
+			if(j instanceof Pingüi) {
+				Pingüi p = (Pingüi) j;
+				p.getInv();
+			}
+		}
 		
 	}
 }
