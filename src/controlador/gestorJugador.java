@@ -2,7 +2,7 @@ package controlador;
 
 import model.Foca;
 import model.Jugador;
-import model.Pingüi;
+import model.Pingui;
 
 public class gestorJugador {
 	public void UtilitzarItem(String nombreitem) {
@@ -14,14 +14,14 @@ public class gestorJugador {
 	public void FinalitzaTorn(Jugador j) {
 		
 	}
-	public void PingüiEvent(Pingüi p) {
+	public void PingüiEvent(Pingui p) {
 		
 	}
 	
-	public void PingüiPVP(Pingüi p1, Pingüi p2) {
+	public void PingüiPVP(Pingui p1, Pingui p2) {
 		
 	}
-	public void focaPingu(Pingüi p, Foca f) {
+	public void focaPingu(Pingui p, Foca f) {
 		
 	}
 	

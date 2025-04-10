@@ -1,10 +1,10 @@
 package model;
 
-public class Pingüi extends Jugador {
+public class Pingui extends Jugador {
 
 	private Inventari inv;
 
-	public Pingüi(int posicio, String nom, String color) {
+	public Pingui(int posicio, String nom, String color) {
 		super(posicio, nom, color);
 	}
 	
