@@ -6,14 +6,14 @@ public class Taulell {
 
 	ArrayList<Casella> casillas;
 	ArrayList<Jugador> jugadors;
-	private int torns;
+	private int rondas;
 	private Jugador jugadorActual;
 	
 	
-	public Taulell(ArrayList<Casella> casillas, ArrayList<Jugador> jugadors, int torns, Jugador jugadorActual) {
+	public Taulell(ArrayList<Casella> casillas, ArrayList<Jugador> jugadors, int rondas, Jugador jugadorActual) {
 		this.casillas = casillas;
 		this.jugadors = jugadors;
-		this.torns = torns;
+		this.rondas = rondas;
 		this.jugadorActual = jugadorActual;
 	}
 	public ArrayList<Casella> getCasillas() {
@@ -28,11 +28,11 @@ public class Taulell {
 	public void setJugadors(ArrayList<Jugador> jugadors) {
 		this.jugadors = jugadors;
 	}
-	public int getTorns() {
-		return torns;
+	public int getRondas() {
+		return rondas;
 	}
-	public void setTorns(int torns) {
-		this.torns = torns;
+	public void setRondas(int torns) {
+		this.rondas = rondas;
 	}
 	public Jugador getJugadorActual() {
 		return jugadorActual;

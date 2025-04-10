@@ -12,6 +12,7 @@ public class TerraTrencat extends Casella {
 	@Override
 	public void realitzarAccio() {
 		int cantidadInv = 0;
+		
 		for(Jugador j : this.jugadorsActuals) {
 			if(j instanceof Pingui) {
 				Pingui p = (Pingui)j;
@@ -21,12 +22,13 @@ public class TerraTrencat extends Casella {
 		}
 		if(cantidadInv >= 1 || 5 > cantidadInv) {
 			for(Jugador j : this.jugadorsActuals) {
+				j.isTorn();
 				
 			}
 		}
 		else if (cantidadInv > 5) {
 			for(Jugador j : this.jugadorsActuals) {
-				
+				j.setPosicio(0);
 			}
 		}
 		

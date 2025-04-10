@@ -7,13 +7,22 @@ public abstract class Jugador {
 	private int posicio;
 	private String nom;
 	private String color;
+	private boolean torn;
 	
 	public Jugador(int posicio, String nom, String color) {
 		this.posicio = posicio;
 		this.nom = nom;
 		this.color = color;
+		this.torn = false;
 	}
 
+	
+	public boolean isTorn() {
+		return torn;
+	}
+	public void setTorn(boolean torn) {
+		this.torn = torn;
+	}
 	public int getPosicio() {
 		return posicio;
 	}
