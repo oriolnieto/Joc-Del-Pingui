@@ -5,7 +5,7 @@ import java.util.ArrayList;
 public abstract class Casella {
 
 	private int posicio;
-	ArrayList<Jugador> jugadorsActuals;
+	protected ArrayList<Jugador> jugadorsActuals;
 	
 	public Casella(int posicio, ArrayList<Jugador> jugadorsActuals) {
 		super();
