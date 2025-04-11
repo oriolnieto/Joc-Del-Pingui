@@ -20,9 +20,9 @@ public class TerraTrencat extends Casella {
 		
 			}
 		}
-		if(cantidadInv >= 1 || 5 > cantidadInv) {
+		if(cantidadInv >= 1 || 5 >= cantidadInv) {
 			for(Jugador j : this.jugadorsActuals) {
-				j.isTorn();
+				j.setTorn(false);
 				
 			}
 		}
