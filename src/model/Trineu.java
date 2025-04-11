@@ -8,11 +8,10 @@ public class Trineu extends Casella{
 		super(posicio, jugadorsActuals);
 		
 	}
+	
 
 	@Override
 	public void realitzarAccio() {
-		for(Jugador j : this.jugadorsActuals) {
-			
-		}
+		
 	}
 }

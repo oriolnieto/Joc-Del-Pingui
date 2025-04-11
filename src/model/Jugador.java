@@ -13,7 +13,7 @@ public abstract class Jugador {
 		this.posicio = posicio;
 		this.nom = nom;
 		this.color = color;
-		this.torn = false;
+		this.torn = true;
 	}
 
 	
