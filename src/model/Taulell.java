@@ -31,7 +31,7 @@ public class Taulell {
 	public int getRondas() {
 		return rondas;
 	}
-	public void setRondas(int torns) {
+	public void setRondas(int rondas) {
 		this.rondas = rondas;
 	}
 	public Jugador getJugadorActual() {
