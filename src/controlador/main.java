@@ -1,13 +1,26 @@
 package controlador;
 
-public class main {
+import javafx.application.Application;
+import javafx.fxml.FXMLLoader;
+import javafx.scene.Scene;
+import javafx.scene.Parent;
+import javafx.stage.Stage;
 
-	public static void main(String[] args) {
+public class main extends Application {
 
+	@Override
+	public void start(Stage primaryStage) throws Exception {
+		//System.out.println(getClass().getResource("/pantallaMenu.fxml"));
+	    FXMLLoader loader = new FXMLLoader(getClass().getResource("/pantallaMenu.fxml"));
+	    Parent root = loader.load();
+
+	    Scene scene = new Scene(root);
+	    primaryStage.setScene(scene);
+	    primaryStage.setTitle("El Juego del Pingüino");
+	    primaryStage.show();
 	}
-	
-	public void jugar() {
-		
-	}
 
+    public static void main(String[] args) {
+        launch(args);
+    }
 }
