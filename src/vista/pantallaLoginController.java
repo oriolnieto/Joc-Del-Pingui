@@ -12,7 +12,7 @@ import javafx.stage.Stage;
 import javafx.event.ActionEvent;
 import javafx.scene.Node;
 
-public class pantallaPrincipalController {
+public class pantallaLoginController {
 
     @FXML private MenuItem newGame;
     @FXML private MenuItem saveGame;
@@ -32,31 +32,7 @@ public class pantallaPrincipalController {
         System.out.println("pantallaPrincipalController initialized");
     }
 
-    @FXML
-    private void handleNewGame() {
-        System.out.println("New Game clicked");
-        // TODO
-    }
-
-    @FXML
-    private void handleSaveGame() {
-        System.out.println("Save Game clicked");
-        // TODO
-    }
-
-    @FXML
-    private void handleLoadGame() {
-        System.out.println("Load Game clicked");
-        // TODO
-    }
-
-    @FXML
-    private void handleQuitGame() {
-        System.out.println("Quit Game clicked");
-        // TODO
-        System.exit(0);
-    }
-    
+   
     @FXML
     private void handleLogin(ActionEvent event) {
         String username = userField.getText();
