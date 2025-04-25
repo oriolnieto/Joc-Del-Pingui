@@ -55,14 +55,14 @@
                <children>
                   <AnchorPane minHeight="200.0" minWidth="300.0">
                      <children>
-                        <Text fx:id="dadoResultText" strokeType="OUTSIDE" strokeWidth="0.0" text="Ha salido: " AnchorPane.leftAnchor="10.0" AnchorPane.topAnchor="30.0">
+                        <Text fx:id="dadoResultText" layoutX="14.0" layoutY="60.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Ha salido: " AnchorPane.leftAnchor="14.0" AnchorPane.topAnchor="40.576171875">
                            <font>
-                              <Font size="32.0" />
+                              <Font size="18.0" />
                            </font>
                         </Text>
-                        <Button fx:id="dado" layoutY="58.0" mnemonicParsing="false" onAction="#handleDado" text="Dado" AnchorPane.leftAnchor="110.0" AnchorPane.topAnchor="100.0">
+                        <Button fx:id="dado" layoutX="102.0" layoutY="107.0" mnemonicParsing="false" onAction="#handleDado" prefHeight="33.0" prefWidth="97.0" text="Dado" AnchorPane.leftAnchor="102.0" AnchorPane.topAnchor="107.0">
                            <font>
-                              <Font size="25.0" />
+                              <Font size="18.0" />
                            </font>
                         </Button>
                      </children>
@@ -71,44 +71,44 @@
                     <content>
                       <AnchorPane>
                            <children>
-                              <Text fx:id="rapido_t" strokeType="OUTSIDE" strokeWidth="0.0" text="Dado rápido: 0" AnchorPane.leftAnchor="10.0" AnchorPane.topAnchor="30.0">
+                              <Text fx:id="rapido_t" layoutX="50.0" layoutY="57.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Dado rápido: 0" AnchorPane.leftAnchor="50.0" AnchorPane.topAnchor="37.576171875">
                                  <font>
-                                    <Font size="30.0" />
+                                    <Font size="18.0" />
                                  </font>
                               </Text>
-                              <Text fx:id="lento_t" strokeType="OUTSIDE" strokeWidth="0.0" text="Dado lento: 0" AnchorPane.leftAnchor="250.0" AnchorPane.topAnchor="30.0">
+                              <Text fx:id="lento_t" layoutX="286.0" layoutY="57.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Dado lento: 0" AnchorPane.leftAnchor="286.0" AnchorPane.topAnchor="37.576171875">
                                  <font>
-                                    <Font size="30.0" />
+                                    <Font size="18.0" />
                                  </font>
                               </Text>
-                              <Text fx:id="peces_t" strokeType="OUTSIDE" strokeWidth="0.0" text="Peces: 0" AnchorPane.leftAnchor="500.0" AnchorPane.topAnchor="30.0">
+                              <Text fx:id="peces_t" layoutX="521.0" layoutY="56.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Peces: 0" AnchorPane.leftAnchor="521.0" AnchorPane.topAnchor="36.0">
                                  <font>
-                                    <Font size="30.0" />
+                                    <Font size="18.0" />
                                  </font>
                               </Text>
-                              <Text fx:id="nieve_t" strokeType="OUTSIDE" strokeWidth="0.0" text="Bolas de nieve: 0" AnchorPane.leftAnchor="750.0" AnchorPane.rightAnchor="10.0" AnchorPane.topAnchor="30.0">
+                              <Text fx:id="nieve_t" layoutX="702.0" layoutY="57.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Bolas de nieve: 0" AnchorPane.leftAnchor="702.0" AnchorPane.rightAnchor="58.5751953125" AnchorPane.topAnchor="37.576171875">
                                  <font>
-                                    <Font size="30.0" />
+                                    <Font size="18.0" />
                                  </font>
                               </Text>
-                              <Button fx:id="rapido" mnemonicParsing="false" text="Usar" AnchorPane.leftAnchor="55.0" AnchorPane.topAnchor="90.0">
+                              <Button fx:id="rapido" layoutX="35.0" layoutY="103.0" mnemonicParsing="false" prefHeight="39.0" prefWidth="147.0" text="Usar" AnchorPane.leftAnchor="35.0" AnchorPane.topAnchor="103.0">
                                  <font>
-                                    <Font size="30.0" />
+                                    <Font size="18.0" />
                                  </font>
                               </Button>
-                              <Button fx:id="lento" layoutX="65.0" layoutY="100.0" mnemonicParsing="false" text="Usar" AnchorPane.leftAnchor="290.0" AnchorPane.topAnchor="90.0">
+                              <Button fx:id="nieve" layoutX="696.0" layoutY="103.0" mnemonicParsing="false" prefHeight="39.0" prefWidth="144.0" text="Usar" AnchorPane.leftAnchor="696.0" AnchorPane.topAnchor="103.0">
                                  <font>
-                                    <Font size="30.0" />
+                                    <Font size="18.0" />
                                  </font>
                               </Button>
-                              <Button fx:id="peces" layoutX="75.0" layoutY="110.0" mnemonicParsing="false" text="Usar" AnchorPane.leftAnchor="505.0" AnchorPane.topAnchor="90.0">
+                              <Button fx:id="rapido1" layoutX="266.0" layoutY="103.0" mnemonicParsing="false" prefHeight="39.0" prefWidth="147.0" text="Usar">
                                  <font>
-                                    <Font size="30.0" />
+                                    <Font size="18.0" />
                                  </font>
                               </Button>
-                              <Button fx:id="nieve" layoutX="85.0" layoutY="120.0" mnemonicParsing="false" text="Usar" AnchorPane.leftAnchor="810.0" AnchorPane.topAnchor="90.0">
+                              <Button fx:id="rapido11" layoutX="479.0" layoutY="103.0" mnemonicParsing="false" prefHeight="39.0" prefWidth="147.0" text="Usar">
                                  <font>
-                                    <Font size="30.0" />
+                                    <Font size="18.0" />
                                  </font>
                               </Button>
                            </children>
@@ -120,11 +120,16 @@
                   </ScrollPane>
                   <AnchorPane minHeight="200.0" minWidth="300.0">
                      <children>
-                        <Text fx:id="eventos" strokeType="OUTSIDE" strokeWidth="0.0" text="Evento ocurrido" AnchorPane.leftAnchor="10.0" AnchorPane.topAnchor="30.0">
+                        <Text fx:id="eventos" strokeType="OUTSIDE" strokeWidth="0.0" text="Evento ocurrido:" AnchorPane.leftAnchor="10.0" AnchorPane.topAnchor="30.0">
                            <font>
                               <Font size="18.0" />
                            </font>
                         </Text>
+                        <Button layoutX="13.0" layoutY="147.0" mnemonicParsing="false" prefHeight="45.0" prefWidth="274.0" text="Guardar Partida">
+                           <font>
+                              <Font size="18.0" />
+                           </font>
+                        </Button>
                      </children>
                   </AnchorPane>
                </children>
@@ -154,18 +159,24 @@
                 <RowConstraints minHeight="10.0" prefHeight="30.0" vgrow="SOMETIMES" />
               </rowConstraints>
                <children>
-                  <Text strokeType="OUTSIDE" strokeWidth="0.0" text="Inicio" GridPane.valignment="TOP">
-                     <font>
-                        <Font size="30.0" />
-                     </font>
+                  <Text strokeType="OUTSIDE" strokeWidth="0.0" text="Inicio" GridPane.halignment="RIGHT" GridPane.valignment="TOP">
                      <cursor>
                         <Cursor fx:constant="DEFAULT" />
                      </cursor>
-                  </Text>
-                  <Text strokeType="OUTSIDE" strokeWidth="0.0" text="Fin" GridPane.columnIndex="4" GridPane.halignment="RIGHT" GridPane.rowIndex="9">
+                     <GridPane.margin>
+                        <Insets right="10.0" top="5.0" />
+                     </GridPane.margin>
                      <font>
                         <Font size="30.0" />
                      </font>
+                  </Text>
+                  <Text strokeType="OUTSIDE" strokeWidth="0.0" text="Fin" GridPane.columnIndex="4" GridPane.halignment="LEFT" GridPane.rowIndex="9">
+                     <font>
+                        <Font size="30.0" />
+                     </font>
+                     <GridPane.margin>
+                        <Insets left="10.0" />
+                     </GridPane.margin>
                   </Text>
                   <Circle fx:id="P1" fill="BLUE" radius="15.0" stroke="BLACK" strokeType="INSIDE">
                      <GridPane.margin>

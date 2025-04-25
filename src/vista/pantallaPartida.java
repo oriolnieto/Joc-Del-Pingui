@@ -22,11 +22,7 @@ public class pantallaPartida {
 		
 	}
 	
-	public void carregarPartida (Taulell t) {
-		
-	}
-	
-	public void guardarPartida (Taulell t) {
+    public void botoGuardarPartida (Taulell t) {
 		
 	}
 }
