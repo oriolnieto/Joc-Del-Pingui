@@ -10,23 +10,12 @@ import javafx.scene.Scene;
 import javafx.scene.Parent;
 import javafx.stage.Stage;
 
-public class main extends Application {
+public class main  {
 	private static String linkBBDD = "jdbc:oracle:thin:@//192.168.3.26:1521/XEPDB2";
 	private static String username = "DM2425_PIN_GRUP03";
 	private static String password = "AAANT03";
-	
-	@Override
-	public void start(Stage primaryStage) throws Exception {
-		//System.out.println(getClass().getResource("/pantallaPrincipal.fxml"));
-	    FXMLLoader loader = new FXMLLoader(getClass().getResource("/pantallaLogin.fxml"));
-	    Parent root = loader.load();
 
-	    Scene scene = new Scene(root);
-	    primaryStage.setScene(scene);
-	    primaryStage.setTitle("El Juego del Pingüino");
-	    primaryStage.show();
-	}
-	
+
 	public static Connection conectarBD() {
 		Connection con = null;
 
@@ -46,6 +35,5 @@ public class main extends Application {
 
     public static void main(String[] args) {
     	conectarBD();
-        launch(args);
     }
 }
