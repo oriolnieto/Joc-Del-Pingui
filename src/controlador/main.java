@@ -14,7 +14,7 @@ public class main  {
 	private static String linkBBDD = "jdbc:oracle:thin:@//192.168.3.26:1521/XEPDB2";
 	private static String username = "DM2425_PIN_GRUP03";
 	private static String password = "AAANT03";
-
+//aa
 
 	public static Connection conectarBD() {
 		Connection con = null;
